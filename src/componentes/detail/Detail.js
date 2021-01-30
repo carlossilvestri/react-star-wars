@@ -19,7 +19,7 @@ export const Detail = () => {
   useEffect(() => {
     const fetchInfo = async () => {
       // No category, no cards.
-      console.log("category ", categoriaS);
+      // console.log("category ", categoriaS);
       if (categoriaS == "" || !categoriaS || idS == 0 || !idS) return;
       // Consultar la API para obtener la cotizacion.
       try {
@@ -29,10 +29,10 @@ export const Detail = () => {
         setLoading(true);
         // console.log(Object.entries(resultado.data));
         let a = Object.entries(resultado.data);
-        console.log(a);
+        // console.log(a);
         let b = [];
         a.forEach(([key, value]) => {
-          console.log(key);
+          // console.log(key);
           if (
             key === "residents" ||
             key === "films" ||
@@ -47,20 +47,20 @@ export const Detail = () => {
             key == "edited"
           ) {
           } else {
-            console.log(key);
+            // console.log(key);
             b.push({ key: key, value: value });
             //b.push(`${key}: ${value.toString()}`);
           }
         });
-        console.log(b);
+        // console.log(b);
         setInfo(b);
       } catch (error) {
-        console.log("There was a mistake: ", error);
+        // console.log("There was a mistake: ", error);
         setLoading(true);
       }
       // No loading:
       setLoading(false);
-      console.log(info);
+      // console.log(info);
     };
     fetchInfo();
   }, []);

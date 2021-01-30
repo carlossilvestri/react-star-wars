@@ -18,7 +18,7 @@ export const Cards = (props) => {
   useEffect(() => {
     const fetchCards = async () => {
       // No category, no cards.
-      console.log("category ", category);
+      // console.log("category ", category);
       if (!category) return;
       // Consultar la API para obtener la cotizacion.
       try {
@@ -30,7 +30,7 @@ export const Cards = (props) => {
             resultado.data.count / 10
           ));
           // Guardar cotizacion:
-          console.log(resultado);
+          // console.log(resultado);
           let resultObject = [];
           if (justThree) {
             for (let i = 0; i < 3; i++) {
@@ -60,7 +60,7 @@ export const Cards = (props) => {
           setInfo(resultObject);
           setInfoCopy(resultObject);
       } catch (error) {
-        console.log("There was a mistake: ", error);
+        // console.log("There was a mistake: ", error);
         setLoading(true);
       }
                 // No loading:
