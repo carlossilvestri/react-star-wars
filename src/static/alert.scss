@@ -1,0 +1,45 @@
+@import "./variables";
+.cont-modal-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tajeta {
+      height: 200px;
+      max-width: 800px;
+      margin: 25px auto;
+      text-align: center;
+      background: #ffffff;
+      border: 5px solid #BDBDBD;
+      border-radius: 10px;
+      @media (max-width: 1125px) {
+        height: auto;
+      }
+      @media (max-width: 730px) {
+        margin: 25px 10px;
+      }
+      .container-elements-tarjeta {
+        height: 75%;
+        padding: 20px 40px;
+        .flex-elemts {
+          .cont-header-all {
+            display: flex;
+            flex-direction: row;
+            @media (max-width: 1125px) {
+              flex-direction: column;
+            }
+          }
+          .title-vale1 {
+            margin-bottom: 30px;
+            @media (max-width: 1125px) {
+              font-size: 17px;
+            }
+          }
+          .btn-vale-dashboard2 {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+  
