@@ -1,3 +1,9 @@
+## React Star Wars
+Search your favorite characters, films, planets, vehicles of Star Wars with this single page application using React. See it here https://carlossilvestri.github.io/react-star-wars/
+### Home page
+<img src="src/static/img-readme/home-page.png" width="700px">
+<h3>Details page</h3>
+<img src="src/static/img-readme/details-page.png" width="700px">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
