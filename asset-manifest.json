@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-star-wars/static/css/main.6851758f.chunk.css",
+    "main.js": "/react-star-wars/static/js/main.7132f4ce.chunk.js",
+    "main.js.map": "/react-star-wars/static/js/main.7132f4ce.chunk.js.map",
+    "runtime-main.js": "/react-star-wars/static/js/runtime-main.b920a414.js",
+    "runtime-main.js.map": "/react-star-wars/static/js/runtime-main.b920a414.js.map",
+    "static/js/2.bfd1ca47.chunk.js": "/react-star-wars/static/js/2.bfd1ca47.chunk.js",
+    "static/js/2.bfd1ca47.chunk.js.map": "/react-star-wars/static/js/2.bfd1ca47.chunk.js.map",
+    "index.html": "/react-star-wars/index.html",
+    "precache-manifest.e69101854dc6def1d6fd46a8706fc51f.js": "/react-star-wars/precache-manifest.e69101854dc6def1d6fd46a8706fc51f.js",
+    "service-worker.js": "/react-star-wars/service-worker.js",
+    "static/css/main.6851758f.chunk.css.map": "/react-star-wars/static/css/main.6851758f.chunk.css.map",
+    "static/js/2.bfd1ca47.chunk.js.LICENSE.txt": "/react-star-wars/static/js/2.bfd1ca47.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/react-star-wars/static/media/buscar-vale.4ad927dd.svg",
+    "static/media/regresar-flecha.svg": "/react-star-wars/static/media/regresar-flecha.3782173c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b920a414.js",
+    "static/js/2.bfd1ca47.chunk.js",
+    "static/css/main.6851758f.chunk.css",
+    "static/js/main.7132f4ce.chunk.js"
+  ]
+}
